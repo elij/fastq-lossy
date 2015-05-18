@@ -3,7 +3,7 @@ A high compression fastq lossy library
 
 Based on the quality scores in example_human_Illumina.pe_1.fastq dataset in 63% of the cases FL lowered keyspace size compared with RLE. In 11% of the cases neither FL or RLE established better storage than decimal representation. As of yet no general entropy compression has been applied and the FL bitrates are the lowest bit rate before data is lost.
 
-| ID                | FL  bitrate | RLE effective bitrate | X                         | X    | Neither | 
+| ID                | FL  bitrate | RLE effective bitrate | FL                         | RLE    | Neither | 
 |-------------------|-------------|-----------------------|-----------------------------|--------|---------| | SRR316957.3748    | 4           | 4                     | X                         |        |         | 
 | SRR316957.10370   | 6           | 5                     |                             | X    |         | 
 | SRR316957.13555   | 3           | 4                     | X                         |        |         | 
